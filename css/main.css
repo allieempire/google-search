@@ -1,3 +1,7 @@
+
+/* =================================
+	UNIVERSAL STYLES
+=================================== */
 * {
 	font-family: sans-serif;
 	max-width: 100%;
@@ -9,3 +13,103 @@
 a {
 	text-decoration: none;
 }
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline;
+}
+
+
+/* =================================
+	END UNIVERSAL STYLES
+=================================== */
+
+
+/* =================================
+	HEADER STYLES
+=================================== */
+
+header {
+	background-color: #fafafa;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.logo {
+	height: 5.4em;
+	float: left;
+	/*border: solid 1px red;*/
+}
+
+input {
+	margin-top: 20px;
+	height: 2.7em;
+	width: 39em;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
+	outline: none;
+	border: solid 0.5px #d9d9d9;
+	/*border: solid 1px red;*/
+}
+
+#nav-right {
+	float: right;
+}
+
+.gsuite {
+	height: 16px;
+	padding-right: 15px;
+	position: relative;
+	top: -31px;
+	right: 34px;
+}
+
+.signin {
+	font-weight: bold;
+	/*text-align: center;*/
+	padding: 0, 12px;
+	color: #fff;
+	border: solid 1px #4285f4;
+	background: #4683ea;
+	border-radius: 2px;
+	line-height: 26px;
+	width: 69px;
+	font-size: .8em;
+	position: relative;
+	top: -35px;
+	right: 30px;
+}
+
+.nav-tabs {
+	margin-top: 29px;
+	margin-left: 115px;
+}
+
+.nav-link {
+	font-size: .8em;
+	color: #777;
+	padding-left: 1.1em;
+	padding-right: 1.1em;
+	padding-bottom: 1em;
+}
+
+.settings {
+	padding-left: 7em;
+}
+
+.nav-link:hover {
+	color: #222;
+}
+
+.selected {
+	font-weight: bold;
+	color: #4285F4;
+	border-bottom: solid 3px #4285F4;
+}
+
+
+
+/* =================================
+	END HEADER STYLES
+=================================== */
