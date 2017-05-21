@@ -92,7 +92,7 @@ input {
 }
 
 .nav-tabs {
-	margin-top: 29px;
+	margin-top: 26px;
 	margin-left: 115px;
 }
 
@@ -194,6 +194,30 @@ h2 {
 	/*display: inline-block;*/
 	margin-left: 11.9em;
 	/*margin-top: -1em;*/
+}
+
+.related-heading {
+	padding-bottom: 1em;
+}
+
+.related-searches-left {
+	margin-left: 8.2em;
+}
+
+.search-items-left {
+	display: block;
+	padding-top: .5em;
+}
+
+.related-searches-right {
+	position: absolute;
+	left: 25.6em;
+	bottom: -6.75em;
+}
+
+.search-items-right {
+	display: block;
+	padding-top: .5em;
 }
 
 
