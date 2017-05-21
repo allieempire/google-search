@@ -39,19 +39,28 @@ header {
 }
 
 .logo {
-	height: 5.4em;
-	float: left;
-	/*border: solid 1px red;*/
+	height: 3.2em;
+	position: absolute;
+	top: 1.1em;
+	left: .65em;
 }
 
 input {
 	margin-top: 20px;
+	margin-left: 9.5em;
 	height: 2.7em;
 	width: 39em;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
 	outline: none;
 	border: solid 0.5px #d9d9d9;
-	/*border: solid 1px red;*/
+	/*background-image: url(../images/magglass.png);
+	background-position: 92%;
+	background-repeat: no-repeat;
+	background-size: 1.4em;*/
+	background-image: url(../images/mic.png);
+	background-position: 97%;
+	background-repeat: no-repeat;
+	background-size: 1.45em;
 }
 
 #nav-right {
@@ -152,7 +161,7 @@ h2 {
 	max-width: 30%;
 	position: absolute;
 	left: 20em;
-	top: 14.75em;
+	top: 14.95em;
 }
 
 .sub-left {
@@ -173,6 +182,10 @@ h2 {
 	margin-left: 13.3em;
 	margin-top: -1em;
 	max-width: 35%
+}
+
+.webdev {
+	margin-top: -.5em;
 }
 
 .site-green {
