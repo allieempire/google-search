@@ -128,7 +128,7 @@ input[name=searchinput] {
 .buttons {
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 2em;
+	margin-left: .85em;
 	margin-top: .45em;
 }
 
