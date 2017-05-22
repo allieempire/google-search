@@ -168,31 +168,40 @@ input[name=searchinput] {
 	text-decoration: none;
 }
 
+#nav-tabs {
+	margin-top: 1.2em;
+	margin-left: 6.5em;
+}
+
 .nav-tabs {
-	/*margin-top: 26px;
-	margin-left: 115px;*/
+	margin-bottom: -.05em;
 }
 
 .nav-link {
-	/*font-size: .8em;
+	display: inline-block;
+	font-size: .8em;
 	color: #777;
-	padding-left: 1.1em;
-	padding-right: 1.1em;
-	padding-bottom: 1em;*/
+	margin: 0 .5em;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
 .settings {
-	/*padding-left: 7em;*/
+	padding-left: 7.5em;
 }
 
 .nav-link:hover {
-	/*color: #222;*/
+	color: #222;
+	text-decoration: none;
 }
 
 .selected {
-	/*font-weight: bold;
+	font-weight: bold;
 	color: #4285F4;
-	border-bottom: solid 3px #4285F4;*/
+	border-bottom: solid 3px #4285F4;
+	padding-bottom: 1em;
+	padding-right: 1.2em;
+	padding-left: 1.2em;
 }
 
 
