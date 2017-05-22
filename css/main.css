@@ -225,7 +225,7 @@ main {
 	display: inline-block;
 	margin-left: 13.25em;
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: .5em;
 }
 
 h1 {
@@ -292,11 +292,12 @@ h2 {
 	RELATED SEARCHES STYLES
 =================================== */
 
-.related-heading {
-	padding-bottom: 1em;
+#related-heading {
+	padding-top: 1.3em;
+	padding-bottom: .7em;
 }
 
-.related-searches-left {
+#related-searches-left {
 	margin-left: 8.2em;
 }
 
@@ -305,10 +306,10 @@ h2 {
 	padding-top: .5em;
 }
 
-.related-searches-right {
+#related-searches-right {
 	position: absolute;
 	left: 25.6em;
-	bottom: -6.75em;
+	bottom: -15.5em;
 }
 
 .search-items-right {
