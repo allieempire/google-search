@@ -327,7 +327,28 @@ h2 {
 	GOOOOOOOOOOGLE STYLES
 =================================== */
 
+#more-pages {
+	margin-left: 2.9em;
+}
 
+#more-pages a {
+	margin-left: .7em;
+}
+
+.next {
+	margin-left: -25.25em;
+}
+
+.pages a, .next a {
+	color: #4285f4;
+}
+
+.google-pages {
+	display: inline-block;
+	margin-top: 1em;
+	font-size: .8em;
+	margin-left: 25em;
+}
 
 
 /* =================================
