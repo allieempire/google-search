@@ -14,6 +14,10 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 ul {
 	list-style: none;
 }
@@ -41,44 +45,123 @@ li {
 .logo {
 	vertical-align: middle;
 	padding-left: .55em;
+	padding-right: .7em;
 }
 
-input {
-	/*margin-top: 20px;
-	margin-left: 9.5em;
-	height: 2.7em;
-	width: 39em;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
-	outline: none;
-	border: solid 0.5px #d9d9d9;*/
+.search {
+	display: inline-block;
+	vertical-align: top;
 }
 
-#nav-right {
-	/*float: right;*/
+#search {
+	margin-top: .15em;
+	border-radius: 2px;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.16), 0px 0px 0px 1px rgba(0, 0, 0, 0.08);
+  	transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  	background: #fff;
 }
 
-.gsuite {
-	/*height: 16px;
-	padding-right: 15px;
-	position: relative;
-	top: -31px;
-	right: 34px;*/
+#search:hover {
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	border: none;
 }
 
-.signin {
-	/*font-weight: bold;
+#search-bar {
+	width: 34em;
+	padding-top: .3em;
+	padding-left: 1em;
+	padding-right: .5em;
+}
+
+input[name=searchinput] {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: #000;
+	border: none;
+	height: 2em;
+	background: transparent;
+	width: 100%;
+}
+
+#search-voice {
+	padding: 0 .5em;
+}
+
+#search-by-voice {
+	width: 1.5em;
+	line-height: 2.7em;
+	padding: 0 .5em;
+}
+
+#voice {
+	width: 1.1em;
+	background: url(../images/mic.png);
+	background-repeat: no-repeat;
+	background-position: -.1em 0;
+	background-size: 1.5em 1.5em;
+	display: inline-block;
+	height: 1.5em;
+	vertical-align: middle;
+}
+
+#search-magglass {
+	padding: 0 .5em;
+}
+
+#search-by-magglass {
+	width: 1.5em;
+	line-height: 2.7em;
+	padding: 0 .5em;
+}
+
+#magglass {
+	width: 1.1em;
+	background: url(../images/magglass.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-size: 1.1em 1.1em;
+	display: inline-block;
+	height: 1.5em;
+	vertical-align: middle;
+}
+
+.buttons {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#gsuite {
+	opacity: .55;
+	line-height: 0;
+}
+
+#gsuite:hover, #gsuite:focus {
+	opacity: .85;
+}
+
+#signin {
+	font-weight: bold;
 	text-align: center;
-	padding: 0, 12px;
-	color: #fff;
+	padding: 0 .6em;
 	border: solid 1px #4285f4;
 	background: #4683ea;
 	border-radius: 2px;
-	line-height: 26px;
-	width: 69px;
+	line-height: 1.8em;
+	width: 4.3em;
 	font-size: .8em;
-	position: relative;
-	top: -35px;
-	right: 30px;*/
+}
+
+#signin a {
+	color: #fff;
+}
+
+#signin a:hover {
+	text-decoration: none;
+}
+
+#buttons {
+	float: right;
+	line-height: 2.5em;
 }
 
 .nav-tabs {
