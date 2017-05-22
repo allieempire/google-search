@@ -8,19 +8,63 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
+
 <body>
 
-	<header>
-		<div id="nav-left">
-			<img class="logo" src="images/google-logo.png">
-			<form>
-				<input type="text" name="search">
-			</form>
+	<header id="header">
+
+		<!-- NAV-TOP -->
+		<div class="search" id="nav-top">
+
+			<!-- LOGO -->
+			<div class="search" id="logo">
+				<a href="#">
+					<img class="logo" title="Go to Google Home" src="images/google-logo.png">
+				</a>
+			</div>
+			<!-- END LOGO -->
+
+			<!-- SEARCH -->
+			<div class="search" id="search">
+				<div class="search" id="search-bar">
+					<form>
+						<input type="text" name="searchinput" value="the odin project">
+					</form>
+				</div>
+				<!-- END SEARCH BAR -->
+
+				<!-- VOICE -->
+				<div class="search" id="search-voice">
+					<a class="search" id="search-by-voice" href="#">
+						<span id="voice"></span>
+					</a>
+				</div>
+				<!-- END VOICE -->
+
+				<!-- MAGNIFYING GLASS -->
+				<div class="search" id="search-magglass">
+					<a class="search" id="search-by-magglass" href="#">
+						<span id="magglass"></span>
+					</a>
+				</div>
+				<!-- END MAGNIFYING GLASS -->
+			</div>
+			<!-- END SEARCH -->
+			
 		</div>
-		<div id="nav-right">
-			<a href=""><img class="gsuite" src="images/grid.png"></a>
-			<button class="signin">Sign In</button>
+		<!-- END NAV-TOP -->
+		
+		<!-- BUTTONS -->
+		<div class="search" id="buttons">
+			<div class="buttons" id="gsuite">
+				<a href=""><img src="images/grid.png"></a>
+			</div>
+			<div class="buttons" id="signin">
+				<a href="#">Sign In</a>
+			</div>
 		</div>
+		<!-- END BUTTONS -->
+
 		<div id="nav-tabs">
 			<ul class="nav-tabs">
 				<a class="nav-link selected" href="#">All</a></li>
