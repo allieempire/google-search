@@ -283,27 +283,15 @@ h2 {
 
 #related-heading {
 	padding-top: 1.3em;
-	padding-bottom: .7em;
+	padding-bottom: 2em;
 }
 
-#related-searches-left {
-	margin-left: 8.2em;
+#related-searches {
+	margin-left: 10.5em;
 }
 
-.search-items-left {
-	display: block;
-	padding-top: .5em;
-}
-
-#related-searches-right {
-	position: absolute;
-	left: 25.6em;
-	bottom: -29.7em;
-}
-
-.search-items-right {
-	display: block;
-	padding-top: .5em;
+#table-right {
+	padding-left: 2em;
 }
 
 
