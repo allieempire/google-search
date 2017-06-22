@@ -234,16 +234,16 @@ h2 {
 	margin-left: 9.65em;
 }
 
-.sub-right {
-	max-width: 30%;
-	position: absolute;
-	left: 20em;
-	top: 14.95em;
+/*#op-links {
+	margin-top: -1em;
+}*/
+
+.table-headings {
+	height: 1em;
 }
 
-.sub-left {
-	max-width: 30%;
-	margin-left: 1.75em;
+td {
+	border: 1px solid red;
 }
 
 .site-blue {
@@ -259,10 +259,6 @@ h2 {
 	margin-left: 13.3em;
 	margin-top: -1em;
 	max-width: 35%
-}
-
-.webdev {
-	margin-top: -.5em;
 }
 
 .site-green {
