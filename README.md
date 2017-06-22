@@ -6,11 +6,3 @@ Assignment:
 	Deconstruct search results page and rebuild
 	Links do not have to go anywhere
 	Search box does not have to search
-
-Skills before starting:
-	Same as google-homepage-easy (http://github.com/allieempire/google-homepage)
-
-Notes/final thoughts:
-
-
-Started on 5/20/17
